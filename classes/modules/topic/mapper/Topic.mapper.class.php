@@ -7,12 +7,12 @@
   http://livestreetcms.com/profile/PSNet/
 */
 
-class PluginTagslikefull_ModuleTopic_MapperTopic extends PluginTagslikefull_Inherit_ModuleTopic_MapperTopic {
+class PluginTagslikefull_ModuleTopic_MapperTopic extends PluginTagslikefull_Inherit_ModuleTopic_MapperTopic
+{
 
-  public function GetTopicTagsByLike ($sTag, $iLimit) {
-    return parent::GetTopicTagsByLike ('%' . $sTag, $iLimit);
-  }
+    public function GetTopicTagsByLike($sTag, $iLimit)
+    {
+        return parent::GetTopicTagsByLike('%' . $sTag, $iLimit);
+    }
 
 }
-
-?>

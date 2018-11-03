@@ -7,8 +7,6 @@
   http://livestreetcms.com/profile/PSNet/
 */
 
-$config = array ();
+$config = array();
 
 return $config;
-
-?>
